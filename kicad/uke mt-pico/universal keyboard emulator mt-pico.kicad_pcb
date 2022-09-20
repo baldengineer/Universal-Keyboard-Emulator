@@ -186,7 +186,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 0d179b4c-1e88-4f35-b914-46eb87e58adc)
-    (at 112.644 60.33)
+    (at 112.644 60.384)
     (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x20 2.54mm double row")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -311,7 +311,7 @@
 
   (footprint "Diode_SMD:D_SMA_Handsoldering" (layer "F.Cu")
     (tedit 58643398) (tstamp 0d4b0904-a682-474e-aa61-f41f12be702a)
-    (at 212.1916 69.6214 -90)
+    (at 204.978 69.5656 -90)
     (descr "Diode SMA (DO-214AC) Handsoldering")
     (tags "Diode SMA (DO-214AC) Handsoldering")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -360,7 +360,7 @@
 
   (footprint "My Libraries:Harwin-S1751-46-Test-Point" (layer "F.Cu")
     (tedit 623802FF) (tstamp 1641d402-c6bd-4feb-a511-2f5036c95b20)
-    (at 212.217 100.9904)
+    (at 205.0034 100.9346)
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
     (property "Sheetname" "")
     (path "/9e10d066-1fc9-491c-a639-1018cddb6322")
@@ -388,7 +388,7 @@
 
   (footprint "My Libraries:Harwin-S1751-46-Test-Point" (layer "F.Cu")
     (tedit 623802FF) (tstamp 1d9527fc-71c5-42c5-af46-e312f746715e)
-    (at 212.217 108.077)
+    (at 205.0034 108.0212)
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
     (property "Sheetname" "")
     (path "/cd46e544-38e5-444b-a780-ac940b8d50d7")
@@ -460,7 +460,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 3bd6878f-134a-466b-8c7d-c96558799a97)
-    (at 212.0646 78.9074)
+    (at 204.851 78.8516)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -509,7 +509,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 3be989c8-91d5-4daf-aec7-e1ff97742fc3)
-    (at 212.1662 60.1472)
+    (at 204.9526 60.0914)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -556,7 +556,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3fa57008-b184-4c53-ad6c-12ae9c54604f)
-    (at 212.2932 94.5896)
+    (at 205.0796 94.5338)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -640,7 +640,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 42303170-c4fc-47ac-a0e6-1bba36db073c)
-    (at 161.1122 98.7552 90)
+    (at 157.1008 99.8474 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -726,7 +726,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 677cc177-e394-4212-b126-a032534c7d28)
-    (at 161.0088 67.9958 -90)
+    (at 156.9974 69.088 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -768,7 +768,7 @@
 
   (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5E888720) (tstamp 6c4327ab-f3a9-4d52-aa54-03b7c25bbffc)
-    (at 160.909 102.4636)
+    (at 156.8976 103.5558)
     (descr "SO, 16 Pin (https://www.nxp.com/docs/en/package-information/SOT109-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SO SO")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -892,7 +892,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_PTS810" (layer "F.Cu")
     (tedit 5B0610A8) (tstamp 71c845ea-7688-476a-9ac7-ecfb1d3d4114)
-    (at 211.709 89.027 90)
+    (at 204.4954 88.9712 90)
     (descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
     (tags "SPST Button Switch")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -990,7 +990,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 772a43e9-16b7-49b3-b83a-547cab1d1a51)
-    (at 160.9852 90.7034)
+    (at 156.9738 91.7956)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -1118,7 +1118,7 @@
 
   (footprint "FTSH-105-01-L-DV-K:SAMTEC_FTSH-105-XX-X-DV" (layer "F.Cu")
     (tedit 621439B9) (tstamp 827d534b-154a-4336-b244-06b2868add09)
-    (at 172.609 110.236)
+    (at 165.3954 110.1802)
     (descr "translated Allegro footprint")
     (property "MANUFACTURER" "Samtec")
     (property "PARTREV" "H")
@@ -1176,7 +1176,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 84617dbc-3d86-4f78-ab79-ed1889d981d5)
-    (at 160.6042 84.963)
+    (at 156.5928 86.0552)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -1218,7 +1218,7 @@
 
   (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 85957636-8bd4-45d7-85d9-3697bf994a90)
-    (at 160.655 86.0552)
+    (at 156.6436 87.1474)
     (descr "SOIC, 20 Pin (JEDEC MS-013AC, https://www.analog.com/media/en/package-pcb-resources/package/233848rw_20.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -1436,7 +1436,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 953e4bb3-1c73-4eee-b363-6581e18e030f)
-    (at 212.3186 75.7682)
+    (at 205.105 75.7124)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -1478,7 +1478,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 95bcea02-56d4-4429-be65-e8ca52c74283)
-    (at 175.387 64.521)
+    (at 166.878 74.0614 180)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -1512,15 +1512,15 @@
     (fp_line (start 1.27 -1.27) (end 1.27 11.43) (layer "F.Fab") (width 0.1) (tstamp bc15085a-caa2-40b8-849a-c5de6b0c4fcc))
     (fp_line (start -1.27 -0.635) (end -0.635 -1.27) (layer "F.Fab") (width 0.1) (tstamp dac4e3ea-17be-42c7-8748-d373516f5bae))
     (fp_line (start 1.27 11.43) (end -1.27 11.43) (layer "F.Fab") (width 0.1) (tstamp db5ad3a0-950d-4aaf-9b94-f51fa1e9741d))
-    (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp d73bf779-ad6e-43ce-aa49-811d5305aeff))
-    (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 15 "unconnected-(J3-Pad2)") (pinfunction "Pin_2") (pintype "passive+no_connect") (tstamp db1abb4a-ae16-404a-ab10-91457b09e9c6))
-    (pad "3" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "3" thru_hole oval (at 0 5.08 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 16 "unconnected-(J3-Pad3)") (pinfunction "Pin_3") (pintype "passive+no_connect") (tstamp 05ecf3fe-d0d1-471a-bc5a-44c127338275))
-    (pad "4" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "4" thru_hole oval (at 0 7.62 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 17 "/RX_2040") (pinfunction "Pin_4") (pintype "passive") (tstamp fc55d9f0-7651-4d67-be9a-61ccd2a27160))
-    (pad "5" thru_hole oval (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "5" thru_hole oval (at 0 10.16 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 18 "/TX_2040") (pinfunction "Pin_5") (pintype "passive") (tstamp e8b6e5d3-65eb-49a0-9014-0e7f2f74baf1))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -1531,7 +1531,7 @@
 
   (footprint "My Libraries:RPi_Pico_W_Combined_SMD_TH" (layer "F.Cu")
     (tedit 5F638C80) (tstamp 97d85ab2-069c-428a-a6c2-cc156b682f58)
-    (at 193.04 88.011)
+    (at 185.8264 84.9632)
     (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows, keepout and SWD for both OG and W")
     (tags "Through hole pin header THT 2x20 2.54mm double row")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -2187,7 +2187,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 9972d6d2-00af-4373-b8a7-de3a940f95c8)
-    (at 217.043 56.1594)
+    (at 209.8294 56.1036)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -2213,7 +2213,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 9b4b3ab7-23be-42e9-a13d-3c9cbbb1d1d5)
-    (at 217.2208 115.5446)
+    (at 210.0072 115.4888)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -2349,7 +2349,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b45cfadf-901d-4bd0-af42-e1f2d03ccf75)
-    (at 160.3484 63.5254 -90)
+    (at 156.337 64.6176 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -2391,7 +2391,7 @@
 
   (footprint "My Libraries:Harwin-S1751-46-Test-Point" (layer "F.Cu")
     (tedit 623802FF) (tstamp bbea6d32-c7b4-4075-a056-bc173198121a)
-    (at 212.1154 104.0892)
+    (at 204.9018 104.0334)
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
     (property "Sheetname" "")
     (path "/7cc1dee9-4320-49ac-80e6-758a8eaebf97")
@@ -2419,7 +2419,7 @@
 
   (footprint "Diode_SMD:D_SOD-323_HandSoldering" (layer "F.Cu")
     (tedit 58641869) (tstamp c4e748b0-9c86-4cf0-a546-1f1f42acbf6a)
-    (at 160.9852 103.0986 90)
+    (at 156.9738 104.1908 90)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Alt" "NSR0320MW2T1G")
@@ -2470,7 +2470,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp cc944518-d7c6-4834-989d-8e9eab18ab20)
-    (at 161.3644 71.9328)
+    (at 157.353 73.025)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -2538,7 +2538,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ee19ae80-cf7d-4961-b1a0-2829220c9d66)
-    (at 160.7566 87.8586)
+    (at 156.7452 88.9508)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -2580,7 +2580,7 @@
 
   (footprint "Diode_SMD:D_SOD-323_HandSoldering" (layer "F.Cu")
     (tedit 58641869) (tstamp f5669e64-22a1-41c7-b2ec-7913ddf749e7)
-    (at 158.3164 68.4784 -90)
+    (at 154.305 69.5706 -90)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Alt" "NSR0320MW2T1G")
@@ -2631,7 +2631,7 @@
 
   (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp f82d64ea-ad2f-4036-8e2a-7a2aa556fa13)
-    (at 160.5008 66.3448)
+    (at 156.4894 67.437)
     (descr "SOIC, 20 Pin (JEDEC MS-013AC, https://www.analog.com/media/en/package-pcb-resources/package/233848rw_20.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -2717,7 +2717,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f89aadbe-5a34-467c-87c3-2ca309b8dcaf)
-    (at 211.8106 97.917)
+    (at 204.597 97.8612)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "universal keyboard emulator mt-pico.kicad_sch")
@@ -2916,7 +2916,7 @@
 
   (footprint "Diode_SMD:D_SOD-323_HandSoldering" (layer "F.Cu")
     (tedit 58641869) (tstamp fb20ef45-25e3-4093-b170-01870d727116)
-    (at 160.655 81.8642)
+    (at 156.6436 82.9564)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Alt" "NSR0320MW2T1G")
