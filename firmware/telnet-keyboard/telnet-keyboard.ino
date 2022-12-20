@@ -9,7 +9,7 @@ void setup() {
   while(!Serial);
   delay(500);
   Serial.println("Universal Keyboard Adapter");
-
+  pinMode(LED_BUILTIN, OUTPUT);
   Serial.println("Turning into a keyboard");
   Keyboard.begin();
 
@@ -53,17 +53,20 @@ void print_ip() {
 #define ESCAPE_DETECTED 1
 #define ESCAPE_SEQUENCE_ACTIVE 2
 #define ESCAPE_LENGTH_MAX 4
+bool connection_status = false;
+WiFiClient client;
 void loop() {
   print_ip();
   // listen for incoming clients
-  WiFiClient client = server.available();
+  if (connection_status == false)
+    client = server.available();
   if (client) {
-    Serial.println("Client CONNECTED");
-    while (client.connected()) {
+    static bool previous_client_state = false;
+    digitalWrite(LED_BUILTIN, HIGH); // this  makes detecting disconnects work, don't ask me why
+    if (client.connected()) {
       while (client.available()) {
         static bool drop_null = false;
         static int escape_sequence = ESCAPE_IDLE;
-        static uint32_t esc_seq_millis = 0;
         static char escape_string[8];
         static int escape_index = 0;
         static int high_skip = 0; // ignore the two characters after 255
@@ -86,20 +89,6 @@ void loop() {
           continue;
         }
         drop_null = false; // we only do the drop-check once
-        // was escape_detected
-        // did 100 ms go by without a new character?
-        // if so, the user pressed it.
-        // if not, treat the next 4-5 characters as the escape sequence ...
-
-        // if (escape_sequence == ESCAPE_DETECTED) {
-        //   if ((millis() - esc_seq_millis >= ESCAPE_TIMEOUT_MS)) {
-        //     Serial.println("ESC");
-        //     escape_sequence = ESCAPE_IDLE;
-        //     escape_index = 0;             
-        //   } else {
-        //     escape_sequence = ESCAPE_SEQUENCE_ACTIVE;
-        //   }
-        // }
 
         if (escape_sequence == ESCAPE_SEQUENCE_ACTIVE) {
           escape_string[escape_index++] = c;
@@ -153,8 +142,19 @@ void loop() {
         }
       }
     }
-    Serial.println("Client disconnected");
-    client.stop();
+    if (previous_client_state != client.connected()) {
+      if (client.connected()) {
+        Serial.println("Client CONNECTED");
+        connection_status = true;
+      } else {
+        Serial.println("Client disconnected");
+        client.stop();
+        connection_status = false;
+      }
+      previous_client_state = client.connected();
+    }
+  } else {
+   digitalWrite(LED_BUILTIN, LOW); 
   }
 }
 
