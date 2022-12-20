@@ -1,0 +1,9 @@
+#ifndef STASSID
+#define STASSID "ssid here"
+#define STAPSK "password here"
+#endif
+
+const char* ssid = STASSID;
+const char* password = STAPSK;
+
+int port = 23;
